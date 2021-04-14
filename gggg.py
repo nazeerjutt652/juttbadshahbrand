@@ -596,4 +596,3 @@ if __name__ == '__main__':
     masuk() 
 
 
-	DECOMPILED BY MHANK BARBAR
