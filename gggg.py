@@ -318,9 +318,9 @@ def menu():
 
     os.system('clear')
     print logo
-    print '   \x1b[1;36;40m      \xa8X\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8['
+    print '   \x1b[1;36;40m      \xa8X\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8'
     print '   \x1b[1;36;40m      \xa8U\x1b[1;34;40m[*] ID  \x1b[1;34;40m: ' + id + '        \x1b[1;36;40m\xa8U'
-    print '   \x1b[1;36;40m      \xa8U\x1b[1;34;40m[*] Subs\x1b[1;34;40m: ' + sub + '                      \x1b[1;36;40m\xa8U'
+    print '   \x1b[1;36;40m      \xa8U\x1b[1;34;40m[*] Subs\x1b[1;34;40m: ' + sub + '       \x1b[1;36;40m\xa8U'
     print '   \x1b[1;36;40m      \xa8^\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8T\xa8a'
     print '\x1b[1;32;40m[1] \x1b[1;33;40m\xa8T\xa8TStart Hack3ing'
     print '\x1b[1;32;40m[2] \x1b[1;33;40m\xa8T\xa8TUpdate Jutt'
@@ -380,7 +380,7 @@ def moch_yayan():
         print '\t    \x1b[1;31mTurn on mobile data OR wifi\x1b[0;97m'
         print ''
         time.sleep(1)
-        raw_input(' \x1b[1;92mPress enter after turning on mobile data/wifi ')
+        raw_input(' \x1b[1;92mPress enter after turning on mobile data/wifi')
         menu()
 
     os.system('clear')
